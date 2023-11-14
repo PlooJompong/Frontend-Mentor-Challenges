@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+
+  <body>
+    <main>
+      <div class="container">
+        <!-- Card-Left -->
+
+        <div class="container__card-left flex-clm">
+          <h2>Your Result</h2>
+          <div class="card-left__circle flex-clm">
+            <span class="circle__main-score">76</span>
+            <p>of 100</p>
+          </div>
+          <span class="card-left__great">Great</span>
+          <p>
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+
+        <!-- Card-Right -->
+        <div class="container__card-right flex-clm">
+          <h2>Summary</h2>
+          <div class="card-right__test-result-reation">
+            <div class="test-result__reaction">
+              <img src="assets/images/icon-reaction.svg" alt="Reaction icon" />
+              <p>Reaction</p>
+            </div>
+            <p class="score">80/100</p>
+          </div>
+
+          <!-- Memory -->
+          <div class="card-right__test-result-memory">
+            <div class="test-result__memory">
+              <img src="assets/images/icon-memory.svg" alt="Memory icon" />
+              <p>Memory</p>
+            </div>
+            <p class="score">92/100</p>
+          </div>
+
+          <!-- Verbal -->
+          <div class="card-right__test-result-verbal">
+            <div class="test-result__verbal">
+              <img src="assets/images/icon-verbal.svg" alt="Verbal icon" />
+              <p>Verbal</p>
+            </div>
+            <p class="score">61/100</p>
+          </div>
+
+          <!-- Visual -->
+          <div class="card-right__test-result-visual">
+            <div class="test-result__visual">
+              <img src="assets/images/icon-visual.svg" alt="Visual icon" />
+              <p>Visual</p>
+            </div>
+            <p class="score">72/100</p>
+          </div>
+
+          <button type="button" class="card-right__btn">Continue</button>
+        </div>
+      </div>
+    </main>
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Ploo Jompong</a>.
+    </div> -->
+  </body>
+</html>

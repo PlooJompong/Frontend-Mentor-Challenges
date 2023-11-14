@@ -1,0 +1,130 @@
+:root {
+  /* Primary */
+  --light-red: hsl(0, 100%, 67%);
+  --orangey-yellow: hsl(39, 100%, 56%);
+  --green-teal: hsl(166, 100%, 37%);
+  --cobalt-blue: hsl(234, 85%, 45%);
+  /* Gradients */
+  --light-slateblue: hsl(252, 100%, 67%);
+  --light-royalblue: hsl(241, 81%, 54%);
+  /* Circle */
+  --violetblue: hsla(256, 72%, 46%, 1);
+  --persian-blue: hsla(241, 72%, 46%, 0);
+  /* Neutral */
+  --white: hsl(0, 0%, 100%);
+  --paleblue: hsl(221, 100%, 96%);
+  --light-lavender: hsl(241, 100%, 89%);
+  --darkgray-blue: hsl(224, 30%, 27%);
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  height: 100vh;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+
+img {
+  width: 25px;
+  height: 25px;
+  font-style: italic;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.flex-clm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 615px;
+  height: 425px;
+}
+
+.container__card-left {
+  text-align: center;
+  width: 305px;
+  height: 425px;
+  color: var(--light-lavender);
+  border-radius: 25px;
+  background-image: linear-gradient(
+    var(--light-slateblue),
+    var(--light-royalblue)
+  );
+}
+
+.container__card-left > h2 {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.container__card-left > p {
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0 40px;
+  /* margin-bottom: 30px; */
+}
+
+.card-left__circle {
+  width: 162px;
+  height: 162px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  background-image: linear-gradient(
+    to bottom,
+    var(--violetblue),
+    var(--persian-blue)
+  );
+}
+
+.card-left__circle > p {
+  color: hsl(241, 100%, 75%);
+}
+
+span.circle__main-score {
+  font-size: 3rem;
+  font-weight: 800;
+  margin-bottom: 0;
+  color: var(--white);
+}
+
+span.card-left__great {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: var(--white);
+}
+
+.container__card-right {
+  width: 305px;
+  height: 425px;
+  border-radius: 25px;
+  color: var(--darkgray-blue);
+  border: 1px solid black;
+}
+/* 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+} */
