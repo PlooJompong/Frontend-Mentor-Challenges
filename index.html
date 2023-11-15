@@ -21,9 +21,8 @@
 
   <body>
     <main>
-      <div class="container">
+      <div class="container flex-c">
         <!-- Card-Left -->
-
         <div class="container__card-left flex-clm">
           <h2>Your Result</h2>
           <div class="card-left__circle flex-clm">
@@ -37,10 +36,10 @@
         </div>
 
         <!-- Card-Right -->
-        <div class="container__card-right flex-clm">
+        <div class="container__card-right">
           <h2>Summary</h2>
-          <div class="card-right__test-result-reation">
-            <div class="test-result__reaction">
+          <div class="card-right__test-result-reaction flex-arc">
+            <div class="test-result__reaction flex-c">
               <img src="assets/images/icon-reaction.svg" alt="Reaction icon" />
               <p>Reaction</p>
             </div>
@@ -48,8 +47,8 @@
           </div>
 
           <!-- Memory -->
-          <div class="card-right__test-result-memory">
-            <div class="test-result__memory">
+          <div class="card-right__test-result-memory flex-arc">
+            <div class="test-result__memory flex-c">
               <img src="assets/images/icon-memory.svg" alt="Memory icon" />
               <p>Memory</p>
             </div>
@@ -57,24 +56,25 @@
           </div>
 
           <!-- Verbal -->
-          <div class="card-right__test-result-verbal">
-            <div class="test-result__verbal">
+          <div class="card-right__test-result-verbal flex-arc">
+            <div class="test-result__verbal flex-c">
               <img src="assets/images/icon-verbal.svg" alt="Verbal icon" />
               <p>Verbal</p>
             </div>
             <p class="score">61/100</p>
           </div>
-
           <!-- Visual -->
-          <div class="card-right__test-result-visual">
-            <div class="test-result__visual">
+          <div class="card-right__test-result-visual flex-arc">
+            <div class="test-result__visual flex-c">
               <img src="assets/images/icon-visual.svg" alt="Visual icon" />
               <p>Visual</p>
             </div>
             <p class="score">72/100</p>
           </div>
 
-          <button type="button" class="card-right__btn">Continue</button>
+          <div class="btn-container flex-c">
+            <button type="button" class="card-right__btn">Continue</button>
+          </div>
         </div>
       </div>
     </main>
