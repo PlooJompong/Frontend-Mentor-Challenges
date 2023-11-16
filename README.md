@@ -1,3 +1,3 @@
 # Frontend-Mentor-Challenges
 
-Fontend Mentor Challenges
+Frontend Mentor Challenges
