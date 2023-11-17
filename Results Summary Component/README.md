@@ -2,4 +2,3 @@
 
 Fontend Mentor Challenge
 
-![Alt text](design/desktop-preview.jpg)
