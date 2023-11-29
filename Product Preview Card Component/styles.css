@@ -9,20 +9,6 @@
   --grayish-blue: hsl(228, 12%, 48%);
 }
 
-/* # Front-end Style Guide
-
-## Layout
-- Mobile: 375px
-- Desktop: 1440px
-
-### Font
-- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
-- Weights: 500, 700
-
-font-family: 'Fraunces', serif;
-- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
-- Weights: 700 */
-
 *,
 *::before,
 *::after {
@@ -33,6 +19,7 @@ font-family: 'Fraunces', serif;
 
 body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -48,12 +35,87 @@ body {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
+  height: 900px;
+  overflow: hidden;
+  margin-bottom: 30px;
 }
 
-/* .attribution {
+.wrapper__description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 60px;
+  width: 600px;
+  height: 900px;
+  background: var(--white);
+}
+
+.description__logo {
+  font-size: 14px;
+  letter-spacing: 8px;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: var(--grayish-blue);
+}
+
+.description__title {
+  font-family: 'Fraunces', serif;
+  font-size: 70px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.description__text {
+  font-size: 28px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  color: var(--grayish-blue);
+}
+
+.description__sale {
+  font-size: 48px;
+  font-family: 'Fraunces', serif;
+  margin-bottom: 50px;
+  color: var(--dark-cyan);
+}
+
+.description__price {
+  position: relative;
+  top: -20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  margin-left: 25px;
+  text-decoration: line-through;
+  color: var(--grayish-blue);
+}
+
+.description__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 100%;
+  padding: 30px 0;
+  border: none;
+  border-radius: 8px;
+  color: var(--white);
+  background-color: var(--dark-cyan);
+}
+
+.btn__img {
+  width: 18px;
+  height: 18px;
+}
+
+.attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
-} */
+}
