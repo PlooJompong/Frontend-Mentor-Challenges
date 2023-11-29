@@ -6,4 +6,4 @@
 
 2. Product preview card component
 
-![Uploading Screenshot 2023-11-29 at 12.46.06.png…]()
+![Screenshot 2023-11-29 at 12 46 06](https://github.com/PlooJompong/Frontend-Mentor-Challenges/assets/50630228/5ed6c0ec-9553-497d-bfab-48d8711bf083)
