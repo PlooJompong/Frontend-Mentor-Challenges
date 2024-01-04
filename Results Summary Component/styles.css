@@ -38,7 +38,7 @@ body {
   height: 100vh;
   gap: 20px;
   color: #333;
-  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
   background-color: #ddd;
 }
 
@@ -88,20 +88,18 @@ main {
   width: 310px;
   color: var(--light-lavender);
   border-radius: 25px;
-  background-image: linear-gradient(
-    var(--light-slateblue),
-    var(--light-royalblue)
-  );
+  background-image: linear-gradient(var(--light-slateblue),
+      var(--light-royalblue));
 }
 
-.container__card-left > h2 {
+.container__card-left>h2 {
   font-size: 1.5rem;
   margin-top: 40px;
   margin-bottom: 30px;
   font-weight: 500;
 }
 
-.container__card-left > p {
+.container__card-left>p {
   font-size: 1rem;
   font-weight: 500;
   padding: 0 40px;
@@ -112,14 +110,12 @@ main {
   height: 162px;
   margin-bottom: 20px;
   border-radius: 50%;
-  background-image: linear-gradient(
-    to bottom,
-    var(--violetblue),
-    var(--persian-blue)
-  );
+  background-image: linear-gradient(to bottom,
+      var(--violetblue),
+      var(--persian-blue));
 }
 
-.card-left__circle > p {
+.card-left__circle>p {
   color: hsl(241, 100%, 75%);
 }
 
@@ -221,15 +217,13 @@ span.card-left__great {
   margin-bottom: 40px;
   border-radius: 50px;
   border-style: none;
-  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: "Hanken Grotesk", sans-serif;
   background-color: var(--darkgray-blue);
 }
 
 .card-right__btn:hover {
-  background-image: linear-gradient(
-    var(--light-slateblue),
-    var(--light-royalblue)
-  );
+  background-image: linear-gradient(var(--light-slateblue),
+      var(--light-royalblue));
 }
 
 .attribution {
@@ -246,7 +240,7 @@ span.card-left__great {
     flex-direction: column;
   }
 
-  .container__card-left > h2 {
+  .container__card-left>h2 {
     margin-top: 30px;
     margin-bottom: 20px;
   }

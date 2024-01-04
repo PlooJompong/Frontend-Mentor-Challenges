@@ -23,7 +23,7 @@ body {
   justify-content: center;
   align-items: center;
   margin: 20px auto;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 14px;
   max-width: 1440px;
   background-color: #d3d3d330;
@@ -74,7 +74,7 @@ body {
 }
 
 .description__title {
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   font-size: 70px;
   font-weight: 700;
   line-height: 0.9;
@@ -88,14 +88,14 @@ body {
 
 .description__sale {
   font-size: 48px;
-  font-family: 'Fraunces', serif;
+  font-family: "Fraunces", serif;
   color: var(--dark-cyan);
 }
 
 .description__price {
   position: relative;
   top: -10px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
   margin-left: 20px;
@@ -108,7 +108,7 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   font-weight: 500;
   width: 100%;
@@ -133,6 +133,7 @@ body {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
   color: hsl(228, 45%, 44%);
 }
