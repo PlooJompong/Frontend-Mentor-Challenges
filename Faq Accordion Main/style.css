@@ -16,6 +16,8 @@
 }
 
 body {
+  margin-inline: auto;
+  max-width: 1440px;
   font-family: "Work Sans", sans-serif;
   background-color: var(--light-pink);
 }
@@ -45,7 +47,6 @@ h1 {
   padding: 25px;
   border-radius: 10px;
   background-color: var(--clr-white);
-  z-index: 10;
 }
 
 .header {
