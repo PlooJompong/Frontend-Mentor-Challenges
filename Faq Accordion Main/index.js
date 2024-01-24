@@ -18,4 +18,9 @@ function displayMore(c) {
 
 MORE_BTNS.forEach((btn) => {
   btn.addEventListener("click", displayMore);
+  btn.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      displayMore(event);
+    }
+  });
 });
