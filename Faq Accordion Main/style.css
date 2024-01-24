@@ -16,14 +16,8 @@
 }
 
 body {
-  margin-inline: auto;
-  max-width: 1440px;
   font-family: "Work Sans", sans-serif;
   background-color: var(--light-pink);
-}
-
-img {
-  display: inline-block;
 }
 
 h1 {
@@ -31,19 +25,22 @@ h1 {
   color: var(--dark-purple);
 }
 
+img {
+  width: 100%;
+}
+
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  max-width: 1440px;
+  margin-inline: auto;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-inline: auto;
   top: -110px;
-  width: 28%;
-  text-wrap: pretty;
+  max-width: 28%;
   padding: 25px;
   border-radius: 10px;
   background-color: var(--clr-white);
@@ -51,7 +48,6 @@ h1 {
 
 .header {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
   margin-bottom: 20px;
 }
@@ -76,18 +72,34 @@ section {
   color: var(--dark-purple);
 }
 
-.plus-icon {
+.questions:nth-child(10) {
+  margin-bottom: 0px;
+}
+
+.icon {
   width: 20px;
   height: 20px;
   margin-left: 15px;
 }
 
-.toggle-facts {
+.facts {
   display: none;
+}
+
+.facts:last-of-type {
+  margin-bottom: 0;
+}
+
+.toggle-facts {
+  display: block;
   margin-bottom: 15px;
   line-height: 1.2rem;
   font-size: 0.625rem;
   color: var(--grayish-purple);
+}
+
+.toggle-facts:last-of-type {
+  margin-top: 20px;
 }
 
 .line {
@@ -100,6 +112,8 @@ section {
 .attribution {
   font-size: 11px;
   text-align: center;
+  position: relative;
+  top: -80px;
 }
 
 .attribution a {

@@ -11,3 +11,5 @@
 3. QR Code Component
 
 ![QR Code Component](https://github.com/PlooJompong/Frontend-Mentor-Challenges/assets/50630228/5fab3143-eedb-41e9-8fe7-3dea787294db)
+
+4. Faq According Main
