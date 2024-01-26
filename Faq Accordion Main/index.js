@@ -1,8 +1,8 @@
-const MORE_BTNS = document.querySelectorAll(".icon");
+const MORE_BTNS = document.querySelectorAll(".questions__icon");
 
 function displayMore(c) {
   const item = c.target;
-  const parentSection = item.closest(".questions");
+  const parentSection = item.closest(".content__questions");
   const relatedFactsSection = parentSection.nextElementSibling;
 
   relatedFactsSection.classList.toggle("toggle-facts");
