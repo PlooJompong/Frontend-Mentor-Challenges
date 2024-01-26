@@ -41,7 +41,6 @@ img {
   margin-inline: auto;
   top: -110px;
   max-width: 30%;
-  /* width: calc(100% - 72%); */
   padding: 25px;
   border-radius: 10px;
   background-color: var(--clr-white);
