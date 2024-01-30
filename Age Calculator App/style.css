@@ -84,7 +84,7 @@ body {
   background-color: var(--light-grey);
 }
 
-#icon {
+#submit-btn {
   align-self: flex-end;
   /* position: relative; */
   /* top: -30px; */
@@ -94,8 +94,6 @@ body {
   z-index: 2;
   background-color: var(--purple);
 }
-
-.container__result {}
 
 p {
   font-size: 3rem;
